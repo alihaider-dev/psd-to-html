@@ -1,0 +1,438 @@
+/*-----------------------------------------------------------------------------------
+
+Theme Name:
+Theme URI: http://alihaider.com
+Description: Creative
+Author: Ali haider
+Author URI: http://www.facebook.com/justalihaider
+License: GNU General Public License version 3.0
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Version: 1.0
+*/
+
+/*-----------------------------------------------------------------------------------
+
+	1. Header Area
+		1.1 Header Text & Slide
+	2. About Area
+	3. Video Area
+	4. Service Area
+		4.1 Web Desing
+		4.2 Branding
+		4.3 Mobile App
+		4.4 Search Engine
+		4.5 Game Development
+		4.6 Made With Love
+	5. Team Area
+	6. Project Area
+	7. Feedback Area
+	8. Contact Area
+	9. Footer Area
+		9.1 Social Link
+		9.2 Footer Content
+
+-----------------------------------------------------------------------------------*/
+
+
+
+/*-----------------------------------------------------------------------------------*/
+/*	1. Header Area
+/*-----------------------------------------------------------------------------------*/
+
+.header-area {
+	background-image: url(images/header-background.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 670px;
+	overflow: hidden;
+}
+.header-area ul li a {
+    font-size: 15px;
+}
+.header-area ul li a:hover {
+    color: #2de4de !important;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+.header-area .navbar .navbar-nav .nav-item .active {
+	color: #2de4de;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	1.1 Header Text & Slide
+/*-----------------------------------------------------------------------------------*/
+
+.header-area .header-text h1 {
+	font-family: 'Playfair Display', serif;
+	font-weight: 900;
+}
+.header-area .header-text hr {
+	width: 50px;
+	background-color: #00e0d0;
+}
+.header-area .header-text p {
+    font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+}
+.button {
+    color: #00e0d0;
+    border-color: #00e0d0;
+    font-size: 13px;
+
+}
+.carousel-indicators {
+	top: 120%;
+}
+.carousel-indicators .active {
+    background-color: #2de4de;
+}
+
+
+/*-----------------------------------------------------------------------------------*/
+/*	2. About Area
+/*-----------------------------------------------------------------------------------*/
+
+.about-area .about-left img {
+    width: 200px;
+    height: 200px;
+}
+.about-area .about-content h2 {
+
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+    font-size: 22px;
+    text-transform: uppercase;
+
+}
+.about-area .about-content p {
+    font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	3. Video Area
+/*-----------------------------------------------------------------------------------*/
+
+.video-area {
+    background-image: url(images/watch-video.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 550px;
+    position: relative;
+}
+.video-area .watch-video {
+	opacity: 0;
+	position: absolute;
+	top: 45%;
+	width: 100%;
+	transition: 1s;
+}
+.video-area:hover .watch-video {
+	opacity: 1;
+	cursor: pointer;
+}
+.video-area .watch-video h4 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	4. Service Area
+/*-----------------------------------------------------------------------------------*/
+
+.service-area .service-title h2 {
+	font-family: 'Playfair Display', serif;
+	font-size: 22px;
+}
+.service-area .service-title p {
+    font-family: 'roboto', serif;
+    font-size: 15px;
+}
+.service-area .service-title hr {
+	width: 50px;
+	background-color: #00e0d0;
+}
+.service-area .service-pack h3 {
+    font-family: 'roboto', serif;
+    font-size: 16px;
+    font-weight: 900;
+}
+.service-area .service-pack p {
+    font-family: 'roboto', serif;
+    font-weight: 300;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	4.1 Web Desing
+/*-----------------------------------------------------------------------------------*/
+.service-area .service-pack .web-design hr {
+    width: 25%;
+    margin: -6px auto 16px;
+    transition-duration: 1s;
+}
+
+.service-area .service-pack .web-design:hover hr {
+    width: 50%;
+    margin: -6px auto 16px;
+    background-color: #2de4de
+}
+/*-----------------------------------------------------------------------------------*/
+/*	4.2 Branding
+/*-----------------------------------------------------------------------------------*/
+.service-area .service-pack .branding img {
+    padding-bottom: 9px;
+}
+.service-area .service-pack .branding hr {
+    width: 25%;
+    margin: -6px auto 16px;
+    transition-duration: 1s;
+}
+
+.service-area .service-pack .branding:hover hr {
+    width: 50%;
+    margin: -6px auto 16px;
+    background-color: #2de4de
+}
+
+
+/*-----------------------------------------------------------------------------------*/
+/*	4.3 Mobile App
+/*-----------------------------------------------------------------------------------*/
+.service-area .service-pack .mobile-app hr {
+    width: 25%;
+    margin: -6px auto 16px;
+    transition-duration: 1s;
+}
+
+.service-area .service-pack .mobile-app:hover hr {
+    width: 50%;
+    margin: -6px auto 16px;
+    background-color: #2de4de
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	4.4 Search Engine
+/*-----------------------------------------------------------------------------------*/
+.service-area .service-pack .search-engine hr {
+    width: 25%;
+    margin: -6px auto 16px;
+    transition-duration: 1s;
+}
+
+.service-area .service-pack .search-engine:hover hr {
+    width: 50%;
+    margin: -6px auto 16px;
+    background-color: #2de4de
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	4.5 Game Development
+/*-----------------------------------------------------------------------------------*/
+.service-area .service-pack .game-development hr {
+    width: 25%;
+    margin: -6px auto 16px;
+    transition-duration: 1s;
+}
+
+.service-area .service-pack .game-development:hover hr {
+    width: 50%;
+    margin: -6px auto 16px;
+    background-color: #2de4de
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	4.6 Made With Love
+/*-----------------------------------------------------------------------------------*/	
+.service-area .service-pack .made-with-love hr {
+    width: 25%;
+    margin: -6px auto 16px;
+    transition-duration: 1s;
+}
+
+.service-area .service-pack .made-with-love:hover hr {
+    width: 50%;
+    margin: -6px auto 16px;
+    background-color: #2de4de
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	5. Team Area
+/*-----------------------------------------------------------------------------------*/
+
+.team-area {
+	background-image: url(images/team-area.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 721px;
+    font-family: 'roboto', serif;
+    font-size: 15px;
+}
+
+.team-area .team-title h2 {
+	font-family: 'Playfair Display', serif;
+	font-size: 22px;
+}
+.team-area .team-title p {
+    font-family: 'roboto', serif;
+    font-size: 15px;
+}
+.team-area .team-title hr {
+	width: 50px;
+	background-color: #00e0d0;
+}
+.team-area .card {
+	background-color: transparent;
+	border-color: #ffffff;
+	border-radius: unset;
+	color: #ffffff;
+}
+.team-area .card .card-body {
+    font-family: 'roboto', serif;
+}
+.team-area .card .card-body h4 {
+    font-weight: 700;
+    font-size: 15px;
+}
+.team-area .card .card-body p {
+    font-size: 14px
+}
+.team-area .team-footer {
+	font-family: 'roboto', serif;
+}
+
+
+/*-----------------------------------------------------------------------------------*/
+/*	6. Project Area
+/*-----------------------------------------------------------------------------------*/
+
+.project-area h2 {
+	font-family: 'Playfair', serif;
+	font-weight: 900;
+	text-transform: uppercase;
+	font-size: 22px;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	7. Feedback Area
+/*-----------------------------------------------------------------------------------*/
+
+.feedback-area {
+    background-image: url(images/feedback.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 420px;
+    font-family: 'Playfair', serif;
+    font-size: 17px;
+    overflow: hidden;
+}
+.feedback-area h4 {
+    font-family: 'roboto', serif;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	8. Contact Area
+/*-----------------------------------------------------------------------------------*/
+
+.contact-area h2 {
+    font-family: 'Playfair', serif;
+    font-weight: 900;
+    font-size: 22px;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	9. Footer Area
+/*-----------------------------------------------------------------------------------*/
+
+.footer-area {
+	background-image: url(images/footer-bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 400px;
+    font-family: 'roboto', serif;
+    overflow: hidden;
+}
+.footer-area h3 {
+	font-size: 17px;
+}
+.footer-area img {
+    margin-bottom: 5px;
+}
+.footer-area .input-group .form-control {
+	background-color: #fff0;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	9.1 Social Link
+/*-----------------------------------------------------------------------------------*/
+
+.social-link {
+	overflow: hidden;
+}
+.social-link ul {
+	list-style: none;
+}
+.social-link ul li {
+	float: left;
+}
+.social-link ul li a {
+	background-image: url(images/sprite-social.png);
+	height: 44px;
+	width: 45px;
+	display: block;
+	transition-duration: 1s;
+}
+.social-link .facebook a {
+	background-position: 0 0;
+}
+.social-link .facebook a:hover {
+	background-position: 0 -45px;
+}
+.social-link .twitter a {
+	background-position: 135px 0;
+}
+.social-link .twitter a:hover {
+	background-position: 135px -45px;
+}
+.social-link .youtube a {
+	background-position: 45px 0;
+}
+.social-link .youtube a:hover {
+	background-position: 45px -45px;
+}
+.social-link .dribbbl a {
+	background-position: -90px 0;
+}
+.social-link .dribbbl a:hover {
+	background-position: -90px -45px;
+}
+.social-link .google a {
+	background-position: -135px 0;
+}
+.social-link .google a:hover {
+	background-position: -135px -45px;
+}
+.social-link .flicker a {
+	background-position: -45px 0;
+}
+.social-link .flicker a:hover {
+	background-position: -45px -45px;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	9.2 Footer Content
+/*-----------------------------------------------------------------------------------*/
+
+.footer-content {
+    font-family: 'roboto', serif;
+    font-size: 15px;
+}
